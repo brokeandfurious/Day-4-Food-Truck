@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D3C241D1FAFF81E00E2CAE9 /* HighCook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C241C1FAFF81E00E2CAE9 /* HighCook.m */; };
+		9D3C24201FAFF93700E2CAE9 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C241F1FAFF93700E2CAE9 /* Cook.m */; };
 		9D52D9D11FAECFFA0088325B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52D9D01FAECFFA0088325B /* main.m */; };
+		9D52D9D91FAED0DD0088325B /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52D9D81FAED0DD0088325B /* FoodTruck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D3C241B1FAFF81E00E2CAE9 /* HighCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighCook.h; sourceTree = "<group>"; };
+		9D3C241C1FAFF81E00E2CAE9 /* HighCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HighCook.m; sourceTree = "<group>"; };
+		9D3C241E1FAFF93700E2CAE9 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		9D3C241F1FAFF93700E2CAE9 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
 		9D52D9CD1FAECFFA0088325B /* Day 4 - Food Truck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Day 4 - Food Truck"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D52D9D01FAECFFA0088325B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D52D9D71FAED0AF0088325B /* FoodTruck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		9D52D9D81FAED0DD0088325B /* FoodTruck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				9D52D9D01FAECFFA0088325B /* main.m */,
+				9D52D9D71FAED0AF0088325B /* FoodTruck.h */,
+				9D52D9D81FAED0DD0088325B /* FoodTruck.m */,
+				9D3C241B1FAFF81E00E2CAE9 /* HighCook.h */,
+				9D3C241C1FAFF81E00E2CAE9 /* HighCook.m */,
+				9D3C241E1FAFF93700E2CAE9 /* Cook.h */,
+				9D3C241F1FAFF93700E2CAE9 /* Cook.m */,
 			);
 			path = "Day 4 - Food Truck";
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D52D9D11FAECFFA0088325B /* main.m in Sources */,
+				9D3C24201FAFF93700E2CAE9 /* Cook.m in Sources */,
+				9D52D9D91FAED0DD0088325B /* FoodTruck.m in Sources */,
+				9D3C241D1FAFF81E00E2CAE9 /* HighCook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
